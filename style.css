@@ -1,0 +1,114 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image: url("Himachal-Pradesh_picture.png");
+    background-size:cover;
+    background-repeat:no-repeat ;
+}
+img{
+    height: 20px;
+    width: 30px;
+}
+.main{
+    display: flex;
+    background-color: #3b5998;
+    height:52px;
+    border-bottom: 1px solid #0f4fda;
+}
+
+#top-left-nav{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+#top-centre-nav{
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
+#top-right-nav-tweeter{
+    margin-left: 25rem;
+    margin-top: 1rem;
+    float: right;
+}
+
+#top-right-nav-fb{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    float: right;
+}
+
+.second-main{
+    display: flex;
+    background-color: rgb(248, 247, 247);
+    height:5rem;
+    border-bottom: 1px solid white;
+}
+.logo{
+    height: 56px;
+    width: 142px;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* #company_logo{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    float: left;
+    height: 40rem;
+
+} */
+
+/* .home
+{
+    margin-top: 200%;
+    margin-left: 509%; */
+
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+#menu-bar {
+   
+    font-size: 20px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5rem;
+    padding-top: 25px;
+}
+
+.bt{
+    padding: 40px;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: lato;
+    background-color: red;
+    border: 0px;
+    float: right;
+    margin-right: 5rem;
+    text-align: center;
+    margin-top: -65px;
+    border-radius: 7px;
+    text-decoration: none;
+    /* padding: 14px 16px;  */
+}
+
+.button:hover{
+    background-color: black;
+}
+
+.tagline{
+    padding-top: 40px;
+    color: red;
+    font-weight: 900;
+    font-size: x-large;
+}
